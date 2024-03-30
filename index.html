@@ -13,31 +13,97 @@
 </head>
 <body>
   <!--Navbar-->
-  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <nav class="navbar navbar-expand-sm fixed-top">
     <div class="container">
-      <a class="navbar-brand text-uppercase" href="#">Adam Hussain</a>
-
+      <a class="navbar-brand text-uppercase text-light" href="#">Adam Hussain</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item mx-2 text-center d-flex align-items-center">
-            <a class="nav-link" href="#projects">Projects</a>
+            <a class="nav-link text-light" href="#projects">Projects</a>
           </li>
           <li class="nav-item mx-2 text-center d-flex align-items-center">
-            <a class="nav-link" href="#about">About Me</a>
+            <a class="nav-link text-light" href="#about">About Me</a>
           </li>
           <li class="nav-item mx-2 text-center d-flex align-items-center">
-            <a class="nav-link" href="#resume">Resume</a>
+            <a class="nav-link text-light" href="#resume">Resume</a>
           </li>
           <li class="nav-item mx-2 text-center d-flex align-items-center">
-            <a class="nav-link" href="#contact">Contact</a>
+            <a class="nav-link text-light" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
+  <main>
+    <section id="about" class="text-light">
+      <!--Classes made for custom css targeting (not Bootstrap) will have start with "a-"-->
+      <div class="container px-5">
+        <div class="row gx-5">
+          <div class="col-md-4">
+            <hr class="w-50">
+            <br>
+            <h1 class="a-section-title">I'm Adam, a Web Developer</h1>
+          </div>
+          <div class="col-md-4 text-center d-flex align-items-center py-4">
+            <img src="./assets/images/headshot-4.png" alt="headshot" class="a-headshot">
+          </div>
+          <div class="col-md-4">
+            <div class="row">
+              <h2 class="a-content-title">About Me</h2>
+              <p class="content-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam id ipsam eius amet labore in nihil dolores ex omnis ratione nam odio, eveniet tempora consequatur provident. Provident voluptas magni veniam?</p>
+            </div>
+            <div class="row">
+              <h3 class="a-learn-more">Learn More <span>&#8594;</span></h3>
+            </div>
+            <br>
+            <hr class="w-100">
+          </div>
+        </div>
+        
+        
+      </div>
+    </section>
+    <section id="projects" class="my-5">
+      <div class="container">
+        <div class="row gx-4">
+          <div class="col-md-3">
+            <h1 class="a-section-title text-center">Projects</h1>
+          </div>
+          <div class="col-md-9">
+            <p class="text-center">content</p>
+          </div>
+        </div>
+    </section>
+    <section id="resume" class="my-5">
+      <div class="container">
+        <div class="row gx-4">
+          <div class="col-md-3">
+            <h1 class="a-section-title text-center">Resume</h1>
+          </div>
+          <div class="col-md-9">
+            <p class="text-center">content</p>
+          </div>
+        </div>
+    </section>
+    <section id="contact" class="my-5">
+      <div class="container">
+        <div class="row gx-4">
+          <div class="col-md-3">
+            <h1 class="a-section-title text-center">Contact Info</h1>
+          </div>
+          <div class="col-md-9">
+            <p class="text-center">content</p>
+          </div>
+        </div>
+    </section>
+  </main>
+  <footer>
+
+
+  </footer>
   <!--Bootstrap CDN: JavaScript-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
