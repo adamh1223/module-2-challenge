@@ -11,13 +11,16 @@
 body {
   background-color: var(--dark-blue);
 }
-#about {
+#about, #projects {
   margin-top: 96px;
 }
-.a-section-title {
+.a-section-title-home {
   font-family: 'alternate-gothic-3d-regular', sans-serif;
   font-size: 60px;
   font-weight: 500;
+}
+.a-section-title {
+
 }
 @media (min-width: 0px) {
   .a-headshot {
@@ -60,9 +63,10 @@ body {
   font-weight: 300;
 }
 .a-learn-more {
+  font-size: 20px;
   text-decoration: underline;
   text-underline-offset: 5px;
-  display: inline-block;
+  color: white;
 }
 .gg-arrow-right {
   float: right;
