@@ -13,7 +13,7 @@
 </head>
 <body>
   <!--Navbar-->
-  <nav class="navbar navbar-expand-sm fixed-top">
+  <nav class="navbar navbar-expand-md fixed-top">
     <div class="container">
       <a class="navbar-brand text-uppercase text-light" href="index.html">Adam Hussain</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
@@ -40,42 +40,98 @@
   <main>
     <section id="about" class="text-light">
       <!--Classes made for custom css targeting (not Bootstrap) will have start with "a-"-->
-      <div class="container px-5">
-        <div class="row gx-5">
-          <div class="col-md-4">
+      <div class="container px-0">
+        <div class="row gx-5 px-4">
+          <div class="col-md-4 d-flex flex-column justify-content-center ps-5">
             <hr class="w-50">
             <br>
             <h1 class="a-section-title-home">I'm Adam, a Web Developer</h1>
           </div>
-          <div class="col-md-4 text-center d-flex align-items-center py-4">
-            <img src="./assets/images/headshot-4.png" alt="headshot" class="a-headshot">
-          </div>
-          <div class="col-md-4">
-            <div class="row">
-              <h2 class="a-content-title">About Me</h2>
-              <p class="content-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam id ipsam eius amet labore in nihil dolores ex omnis ratione nam odio, eveniet tempora consequatur provident. Provident voluptas magni veniam?</p>
+          <div class="col-md-4 d-flex flex-column justify-content-center align-items-center py-3">
+            <div>
+              <img src="./assets/images/headshot-4.png" alt="headshot" class="a-headshot">
             </div>
-            <div class="row">
-              <a class="a-learn-more" href="about.html">Learn More <span>&#8594;</span></a>
+            
+          </div>
+          <div class="col-md-4 p-4">
+            <div class="row px-2">
+              <h2 class="a-content-title">About Me</h2>
+              <p class="content-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam id ipsam eius amet labore in nihil dolores ex omnis ratione nam odio, eveniet tempora consequatur provident.</p>
+            </div>
+            <div class="row px-2">
+              <!--Wrapped anchor link in a div to prevent clickable area from taking up entire width of row-->
+              <div>
+                <a class="a-learn-more" href="about.html">Learn More <span>&#8594;</span></a>
+              </div>
             </div>
             <br>
-            <hr class="w-100">
+            <div class="row px-4">
+              <hr class="w-100">
+            </div>
+            <div class="row px-2">
+              <h2 class="a-content-title">My Work</h2>
+              <p class="content-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam id ipsam eius amet labore in nihil dolores ex omnis ratione nam odio, eveniet tempora consequatur provident.</p>
+            </div>
+            <div class="row px-2">
+              <!--Wrapped anchor link in a div to prevent clickable area from taking up entire width of row-->
+              <div>
+                <a class="a-learn-more" href="#projects-preview">Show Me <span>&#8594;</span></a>
+              </div>
+            </div>
           </div>
         </div>
-        
-        
       </div>
+      <br>
     </section>
-    <section id="projects" class="my-5">
-      <div class="container">
-        <div class="row gx-4">
-          <div class="col-md-3">
-            <h1 class="a-section-title text-center">Projects</h1>
+    <section id="projects-preview" class="my-5">
+      <div class="container px-0">
+        <div class="row gx-5 px-4">
+          <div class="col-md-4 d-flex flex-column justify-content-top ps-5">
+            <hr class="w-50">
+            <br>
+            <h1 class="a-section-title-home">Projects</h1>
           </div>
-          <div class="col-md-9">
-            <p class="text-center">content</p>
+          <div class="col-md-8 d-flex flex-column text-center py-1 px-1">
+            <div class="row">
+              <div class="col-md">
+                <div class="container w-80 a-project-preview-title-container">
+                  <h4 class="a-project-preview-title">Parks Planner</h4>
+                </div>
+                <div class="container w-80 a-project-preview-body-container">
+
+                </div>
+              </div>
+              <div class="col-md">
+                <div class="container w-80 a-project-preview-title-container">
+                  <h4 class="a-project-preview-title">Parks Planner</h4>
+                </div>
+                <div class="container w-80 a-project-preview-body-container p-0">
+
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md">
+                <div class="container w-80 a-project-preview-title-container">
+                  <h4 class="a-project-preview-title">Parks Planner</h4>
+                </div>
+                <div class="container w-80 a-project-preview-body-container">
+
+                </div>
+              </div>
+              <div class="col-md">
+                <div class="container w-80 a-project-preview-title-container">
+                  <h4 class="a-project-preview-title">Parks Planner</h4>
+                </div>
+                <div class="container w-80 a-project-preview-body-container">
+
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+      </div>
+      <br>
     </section>
   </main>
   <footer>

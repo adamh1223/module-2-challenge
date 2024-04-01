@@ -11,12 +11,16 @@
 body {
   background-color: var(--dark-blue);
 }
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
 #about, #projects {
   margin-top: 96px;
 }
 .a-section-title-home {
   font-family: 'alternate-gothic-3d-regular', sans-serif;
-  font-size: 60px;
+  font-size: 54px;
   font-weight: 500;
 }
 .a-section-title {
@@ -24,20 +28,14 @@ body {
 }
 @media (min-width: 0px) {
   .a-headshot {
-    height: 150px;
-    border-radius: 75px;
+    height: 200px;
+    border-radius: 100px;
   }
 }
 @media (min-width: 576px) {
   .a-headshot {
-    height: 150px;
-    border-radius: 75px;
-  }
-}
-@media (min-width: 768px) {
-  .a-headshot {
-    height: 175px;
-    border-radius: 88px;
+    height: 250px;
+    border-radius: 125px;
   }
 }
 @media (min-width: 992px) {
@@ -65,9 +63,23 @@ body {
 .a-learn-more {
   font-size: 20px;
   text-decoration: underline;
-  text-underline-offset: 5px;
+  text-decoration-thickness: 0.05em;
+  text-underline-offset: 6px;
   color: white;
 }
-.gg-arrow-right {
-  float: right;
+.a-project-preview-title-container {
+  border: 1px solid white;
+  padding: 10px;
+}
+.a-project-preview-body-container {
+  height: 300px;
+  border: 1px solid white;
+  border-top: none;
+  margin: 0 0 24px 0;
+  padding: 0;
+}
+.a-project-preview-title {
+  font-family: 'alternate-gothic-3d-regular', sans-serif;
+  font-weight: 300;
+  margin: 0
 }
